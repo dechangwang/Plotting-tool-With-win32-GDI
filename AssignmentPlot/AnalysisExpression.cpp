@@ -554,12 +554,12 @@ void AnalysisExpression::getPointsByExpresson(TCHAR rpex[],POINT pointsResult[nu
 	double _fresult[numOfPoints],_sresult[numOfPoints];//,pointsY[numOfPoints];
 	for(int i = numOfPoints/2;i>0;i--)
 	{
-		pointsSet[numOfPoints/2-i]=_fresult[numOfPoints/2-i]=_sresult[numOfPoints/2-i]=-i*0.1+xmove;
+		pointsSet[numOfPoints/2-i]=_fresult[numOfPoints/2-i]=_sresult[numOfPoints/2-i]=-i*0.02+xmove;
 	
 	}
 	for(int i = 0;i<numOfPoints/2;i++)	
 	{
-		pointsSet[numOfPoints/2+i]=_fresult[numOfPoints/2+i]=_sresult[numOfPoints/2+i]=i*0.1+xmove;
+		pointsSet[numOfPoints/2+i]=_fresult[numOfPoints/2+i]=_sresult[numOfPoints/2+i]=i*0.02+xmove;
 	}
 		
 	float fresult=1.2,sresult=1.2;

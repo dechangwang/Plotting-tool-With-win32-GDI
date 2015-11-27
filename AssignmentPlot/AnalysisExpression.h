@@ -2,7 +2,7 @@
 #include<Windows.h>
 #include<list>
 
-#define numOfPoints 1000
+#define numOfPoints 5000
 class AnalysisExpression
 {
 private:
